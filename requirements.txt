@@ -1,5 +1,5 @@
-aiogram==2.25.1
-instagrapi==2.2.1
-instaloader==4.10.1
-apscheduler==3.10.4
-pytz==2024.1
+aiogram
+instagrapi
+instaloader
+apscheduler
+pytz
