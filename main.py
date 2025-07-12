@@ -69,8 +69,7 @@ async def show_report(message: types.Message):
     if not report:
         await message.answer("Пока нет отчета.")
     else:
-        await message.answer("Вот на кого подписались:
-" + "\n".join(report))
+        await message.answer("Вот на кого подписались:" + "\n".join(report))
 
 @dp.message_handler()
 async def handle_text(message: types.Message):
